@@ -7,7 +7,7 @@ struct AboutMe
 {
     const char *name { "Vivi" };
     const uint8_t age { 17 };
-    const char* languages[7] {
+    const char *languages[7] {
         "C++",
         "C",
         "Rust",
@@ -44,7 +44,7 @@ struct AboutMe
 {
     const char *name { "耀宇" };
     const uint8_t age { 17 };
-     const char* languages[7] {
+     const char *languages[7] {
         "C++",
         "C",
         "Rust",
