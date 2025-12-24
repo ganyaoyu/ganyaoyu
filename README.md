@@ -7,6 +7,15 @@ struct AboutMe
 {
     const char *name { "Vivi" };
     const uint8_t age { 17 };
+    const char* languages[7] {
+        "C++",
+        "C",
+        "Rust",
+        "Go",
+        "Assembly",
+        "Python",
+        "Typescript",
+    };
     const char *interests[4] {
         "Kernel Development",
         "Distributed Systems",
@@ -19,8 +28,9 @@ struct AboutMe
         "Gardening",
     };
 
-    static constexpr size_t interest_count { 4 };
-    static constexpr size_t hobby_count { 3 };
+    static constexpr size_t languagesCount { 7 };
+    static constexpr size_t interestCount { 4 };
+    static constexpr size_t hobbyCount { 3 };
 };
 ~~~
 </details>
@@ -34,6 +44,15 @@ struct AboutMe
 {
     const char *name { "耀宇" };
     const uint8_t age { 17 };
+     const char* languages[7] {
+        "C++",
+        "C",
+        "Rust",
+        "Go",
+        "Assembly",
+        "Python",
+        "Typescript",
+    };
     const char *interests[4] {
         "内核开发",
         "分布式系统",
@@ -46,8 +65,9 @@ struct AboutMe
         "园艺",
     };
 
-    static constexpr size_t interest_count { 4 };
-    static constexpr size_t hobby_count { 3 };
+    static constexpr size_t languagesCount { 7 };
+    static constexpr size_t interestCount { 4 };
+    static constexpr size_t hobbyCount { 3 };
 };
 ~~~
 </details>
