@@ -1,17 +1,53 @@
-```cpp
+<details open>
+<summary>English</summary>
+<a name="english"></a>
+
+~~~cpp
 struct AboutMe
 {
     const char *name { "Vivi" };
-    const u_int8_t *age { 17 };
-    std::vector<const char*> interests = {
+    const uint8_t age { 17 };
+    const char *interests[4] {
         "Kernel Development",
         "Distributed Systems",
         "Backend Programming",
-        "Low-latency Programming",  
+        "Low-latency Programming",
     };
-    std::vector<const char*> hobbies = {
+    const char *hobbies[3] {
         "Reading Novels",
-        "Gardening",    
-    }    
+        "Cooking",
+        "Gardening",
+    };
+
+    static constexpr size_t interest_count { 4 };
+    static constexpr size_t hobby_count { 3 };
 };
-```
+~~~
+</details>
+
+<details>
+<summary>中文</summary>
+<a name="中文"></a>
+
+~~~cpp
+struct AboutMe
+{
+    const char *name { "耀宇" };
+    const uint8_t age { 17 };
+    const char *interests[4] {
+        "内核开发",
+        "分布式系统",
+        "后端编程",
+        "低延迟开发",
+    };
+    const char *hobbies[3] {
+        "看小说",
+        "做饭",
+        "园艺",
+    };
+
+    static constexpr size_t interest_count { 4 };
+    static constexpr size_t hobby_count { 3 };
+};
+~~~
+</details>
