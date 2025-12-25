@@ -5,9 +5,10 @@
 ~~~cpp
 struct AboutMe
 {
-    const char *name { "Vivi" };
+    const char *name  { "Vivi" };
     const uint8_t age { 17 };
-    const char *languages[7] {
+    const char *languages[7]
+    {
         "C++",
         "C",
         "Rust",
@@ -16,24 +17,28 @@ struct AboutMe
         "Python",
         "Typescript",
     };
-    const char *interests[4] {
+    const char *interests[4]
+    {
         "Kernel Development",
         "Distributed Systems",
         "Backend Programming",
         "Low-latency Programming",
     };
-    const char *hobbies[3] {
+    const char *hobbies[3]
+    {
         "Reading Novels",
         "Cooking",
         "Gardening",
     };
-    const char *funFact[1] {
+    const char *funFact[1]
+    {
         "I use Arch and Vim with white theme btw"
     };
 
     static constexpr size_t languagesCount { 7 };
-    static constexpr size_t interestCount { 4 };
-    static constexpr size_t hobbyCount { 3 };
+    static constexpr size_t interestCount  { 4 };
+    static constexpr size_t hobbyCount     { 3 };
+    static constexpr size_t funFactCount   { 1 };
 };
 ~~~
 </details>
@@ -45,9 +50,10 @@ struct AboutMe
 ~~~cpp
 struct AboutMe
 {
-    const char *name { "耀宇" };
+    const char *name  { "耀宇" };
     const uint8_t age { 17 };
-     const char *languages[7] {
+     const char *languages[7]
+    {
         "C++",
         "C",
         "Rust",
@@ -56,21 +62,23 @@ struct AboutMe
         "Python",
         "Typescript",
     };
-    const char *interests[4] {
+    const char *interests[4]
+    {
         "内核开发",
         "分布式系统",
         "后端编程",
         "低延迟开发",
     };
-    const char *hobbies[3] {
+    const char *hobbies[3]
+    {
         "看小说",
         "做饭",
         "园艺",
     };
 
     static constexpr size_t languagesCount { 7 };
-    static constexpr size_t interestCount { 4 };
-    static constexpr size_t hobbyCount { 3 };
+    static constexpr size_t interestCount  { 4 };
+    static constexpr size_t hobbyCount     { 3 };
 };
 ~~~
 </details>
