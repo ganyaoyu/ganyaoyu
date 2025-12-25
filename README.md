@@ -27,6 +27,9 @@ struct AboutMe
         "Cooking",
         "Gardening",
     };
+    const char *funFact[1] {
+        "I use Arch and Vim with white theme btw"
+    };
 
     static constexpr size_t languagesCount { 7 };
     static constexpr size_t interestCount { 4 };
